@@ -1,0 +1,8 @@
+D = 5;
+T = 9;
+N = 2;
+MinDT=1;
+MaxDT=5;
+MaxDL=1;
+incompatibles=[{9},{5},{4},{3},{2},{7,8},{6},{6},{1}]; 
+esSupervisor=[true,true,true,false,false,false,false,false,false];

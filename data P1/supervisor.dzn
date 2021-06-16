@@ -1,0 +1,9 @@
+%Los tres primeros trabajadores tienen que trabajar todos los días
+D = 3;
+T = 9;
+N = 2;
+MinDT=1;
+MaxDT=3;
+MaxDL=1;
+incompatibles=[{2,9},{1,5},{4},{3},{1,2},{7,8},{6},{6},{1}]; 
+esSupervisor=[true,true,true,false,false,false,false,false,false];

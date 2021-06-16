@@ -1,0 +1,25 @@
+D = 5;
+T = 10;
+N = 3;
+MinDT=3;
+MaxDT=5;
+MaxDL=2;
+incompatibles=[{},{},{},{5},{4},{},{},{},{},{}];
+esSupervisor=[true,true,false,false,false, false, false, true, true,false];
+
+%tarda 306msec
+
+%cambios sobre los datos actuales:
+
+%si se añade un trabajador (supervisor o no) tarda aproximadamente 317msec
+%si se añaden dos trabajadores no supervisores tarda 4s 854msec
+%si se añaden dos trabajadores supervisores tarda 6m 57s
+%si se aumenta el numero de trabajadores a 13, tarda +10min
+
+%Si se aumenta el número de días a 6, tarda +12min
+
+%MAxDT=4 tarda +11min
+
+%Si se aumenta MinDT=4 tarda 529msec
+
+%Si se disminuye MaxDL=1 tarda 335msec
